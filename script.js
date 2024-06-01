@@ -20,17 +20,7 @@ e.addEventListener("click",()=>{
         Header.classList.remove("active")
     }))
 
-// Things we do section
-
-
-
-// const Box1=document.getElementsByClassName('1')
-// const Box2=document.getElementsByClassName('2')
-// const Box3=document.getElementsByClassName('3')
-// const Box4=document.getElementsByClassName('4')
-// const Box5=document.getElementsByClassName('5')
-// const Box1=document.querySelector('.box1')
-
+/
 
 
 
@@ -44,8 +34,7 @@ num1.addEventListener("click",()=>{
 
 num1.addEventListener('click',()=>{
     slider.scrollLeft =100
-    // Box1.class.toggle("actives")
-    // document.getElementsByClassName('1').style.tranform="scale(1.3)"
+   
 
 })
 num2.addEventListener('click',()=>{
@@ -64,27 +53,7 @@ num5.addEventListener('click',()=>{
 
 
 
-// Our Family
-
-
-
-                                        // HERO IMAGE ANIMATION
 
 
                                         
-                                        function sendWhatsAppMessage(event) {
-                                            event.preventDefault(); // Prevent the default form submission
-                                
-                                            const name = document.getElementById('name').value;
-                                            const email = document.getElementById('email').value;
-                                            const phone = document.getElementById('phone').value;
-                                            const message = document.getElementById('message').value;
-                                            const updates = document.getElementById('updates').checked ? 'Yes' : 'No';
-                                
-                                            const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}%0AUpdates: ${updates}`;
-                                
-                                            const whatsappNumber = '6203094055'; // Replace with the WhatsApp number you want to send the message to
-                                            const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
-                                
-                                            window.open(whatsappURL);
-                                        }
+                                   
